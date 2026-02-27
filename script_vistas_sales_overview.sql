@@ -218,7 +218,11 @@ ORDER BY ct.mes DESC;
 
 
 
-
+--probar cada vista creada:
+SELECT * FROM semantic.ticket_tendencia_hoy_ayer;
+SELECT * FROM semantic.ventas_mes_vs_meta;
+SELECT * FROM semantic.tendencia_mensual;
+SELECT * FROM semantic.ventas_mensuales_historico;
 
 
 -- Muestra de transacciones individuales de ayer en Tajamar
